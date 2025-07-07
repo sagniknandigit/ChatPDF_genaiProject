@@ -20,6 +20,7 @@ Upload PDF documents, ask questions, extract information, and summarize content 
 ## 📁 Project Structure
 
 ChatPDF_genaiProject/
+
 ├── main.py # FastAPI app
 
 ├── pdfquery.py # Helper for PDF text and Q&A
