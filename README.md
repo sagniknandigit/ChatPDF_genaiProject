@@ -21,8 +21,13 @@ Upload PDF documents, ask questions, extract information, and summarize content 
 
 ChatPDF_genaiProject/
 ├── main.py # FastAPI app
+
 ├── pdfquery.py # Helper for PDF text and Q&A
+
 ├── Gemini_ChatPDF.ipynb # Notebook using Gemini API
+
 ├── requirements.txt # Python dependencies
+
 ├── LICENSE
+
 └── README.md
