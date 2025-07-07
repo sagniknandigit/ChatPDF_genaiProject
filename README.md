@@ -1,50 +1,28 @@
-# ChatPDF
+# 🤖 ChatPDF – Chat with Any PDF using GenAI
 
-Chat with any PDF. 
+Upload PDF documents, ask questions, extract information, and summarize content using powerful AI models — all in one lightweight Python app.
 
-Easily upload the PDF documents you'd like to chat with. Instant answers. Ask questions, extract information, and summarize documents with AI. Sources included.
+> Works with Hugging Face transformers, FastAPI, and PyMuPDF. Minimal setup. Clear results. Easily extendable.
 
-### Tutorial -> https://www.youtube.com/watch?v=3aRc1ijrTVs
+---
 
-Create app like [ChatPDF](https://www.thesamur.ai/chatpdf-alternative) or [PDF.ai](https://pdf.ai/) in less than 10 lines of code
+## 🚀 Features
 
-### Getting Started
+- 📄 Upload and extract text from any PDF using PyMuPDF
+- 🧠 Summarize content using BART model (`facebook/bart-large-cnn`)
+- 💬 Ask questions with context using DistilBERT QA model
+- ⚡ FastAPI backend with Swagger docs
+- ✅ Jupyter notebook included for quick experimentation
+- 💻 Streamlit version (UI) coming soon
 
-Code is up now, ⭐ (Star) the repo to receive updates
+---
 
-Replit and streamlit version coming soon
+## 📁 Project Structure
 
-Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) on twitter for updates
-
-Subscribe to https://www.youtube.com/@AnilChandraNaiduMatcha for more such video tutorials
-
-### How to run ? (Things might change based on OS)
-
-1. Create a virtual environment in python https://docs.python.org/3/library/venv.html
-
-2. Run "pip install -r requirements.txt"
-
-3. Set OPENAI_API_KEY environment variable with your openai key
-
-4. Run "python main.py"
-
-5. Change pdf file and query in code if you want to try with any other content
-
-To run streamlit app, follow the steps run "streamlit run streamlitui.py"
-
-Parts of the streamlit code is inspired from [here](https://github.com/viniciusarruda/chatpdf)
-
-### Demo link
-
-https://heybot.thesamur.ai/
-
-### Also check
-
-[Chat with Website code](https://github.com/Anil-matcha/Website-to-Chatbot)
-
-[Chat with CSV code](https://github.com/Anil-matcha/Chat-With-Excel)
-
-[Chat with Youtube code](https://github.com/Anil-matcha/Chat-Youtube)
-
-[ChatGPT in Discord code](https://github.com/Anil-matcha/DiscordGPT)
-"# ChatPDF_genaiProject" 
+ChatPDF_genaiProject/
+├── main.py # FastAPI app
+├── pdfquery.py # Helper for PDF text and Q&A
+├── Gemini_ChatPDF.ipynb # Notebook using Gemini API
+├── requirements.txt # Python dependencies
+├── LICENSE
+└── README.md
